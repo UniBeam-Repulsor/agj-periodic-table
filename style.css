@@ -6,3 +6,30 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+body {
+  background: rgb(174,238,215);
+  background: radial-gradient(circle, rgba(174,238,215,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  border-bottom: 3px solid white;
+  padding: 5px 0px 5px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  #home {
+    font-size: 25px;
+    margin-right: 20px;
+  }
+
+  .title-button {
+    font-size: 17px;
+    margin-right: 10px;
+  }
+}
