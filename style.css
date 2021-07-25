@@ -26,22 +26,19 @@ header {
   margin-top: 25px;
 }
 
-#study {
+.block {
   text-align: center;
 }
 
-#study > img {
+.block > img {
   display: block;
-  margin: auto;
-  margin-top: 25px;
+  margin: 25px auto 0px auto;
 
 }
 
-#study > button {
+.block > button {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
+  margin: 50px auto 0px auto;
   width: 100px;
   height: 25px;
   font-size: 20px;
@@ -49,14 +46,20 @@ header {
   transition: all 0.5s ease;
 }
 
-#study > button:hover {
+.block > button:hover {
   background-color: #dedede;
   transition: all 0.5s ease;
 }
 
-#study > button:active {
-  background-color: #c4c4c4;
+.block > button:active {
+  background-color: #adadad;
   transition: all 0.5s ease;
+}
+
+.line {
+  margin: 50px auto 50px auto;
+  width: 350px;
+  border-bottom: 3px solid white;
 }
 
 @media only screen and (max-width: 600px) {
