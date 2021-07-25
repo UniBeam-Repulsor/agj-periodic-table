@@ -22,6 +22,43 @@ header {
   padding: 5px 0px 5px 0px;
 }
 
+#contentBlock {
+  margin-top: 25px;
+}
+
+#study {
+  text-align: center;
+}
+
+#study > img {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+
+}
+
+#study > button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 100px;
+  height: 25px;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+
+#study > button:hover {
+  background-color: #dedede;
+  transition: all 0.5s ease;
+}
+
+#study > button:active {
+  background-color: #c4c4c4;
+  transition: all 0.5s ease;
+}
+
 @media only screen and (max-width: 600px) {
   #home {
     font-size: 23px;
