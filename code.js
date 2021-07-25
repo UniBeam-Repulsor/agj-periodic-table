@@ -5,3 +5,7 @@ function study() {
 function test() {
   window.loaction.replace("/Test/test.html");
 }
+
+function contact() {
+  window.location.replace("/Contact/contact.html")
+}
