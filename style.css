@@ -68,13 +68,12 @@ header {
   transition: all 0.5s ease;
 }
 
-.block > h2 {
+.block > h1 {
   margin-bottom: 15px;
 }
 
 .line {
   margin: 50px auto 50px auto;
-  width: 350px;
   border-bottom: 3px solid white;
 }
 
@@ -92,6 +91,10 @@ header {
   ::-webkit-scrollbar {
     width: 7px;
   }
+
+  .line {
+    width: 350px;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -107,6 +110,10 @@ header {
 
   ::-webkit-scrollbar {
     width: 8px;
+  }
+
+  .line {
+    width: 450px;
   }
 }
 
@@ -124,6 +131,14 @@ header {
   ::-webkit-scrollbar {
     width: 10px;
   }
+
+  .block > div {
+    font-size: 45px;
+  }
+
+  .line {
+    width: 500px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -140,6 +155,10 @@ header {
   ::-webkit-scrollbar {
     width: 10px;
   }
+
+  .line {
+    width: 550px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -155,5 +174,9 @@ header {
 
   ::-webkit-scrollbar {
     width: 10px;
+  }
+
+  .line {
+    width: 600px;
   }
 }
