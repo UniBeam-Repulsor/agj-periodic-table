@@ -12,20 +12,16 @@ body {
   background: radial-gradient(circle, rgba(174,238,215,1) 0%, rgba(148,187,233,1) 100%);
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-}
-
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: white;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #A8A8A8;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: grey;
 }
 
 a {
@@ -92,6 +88,10 @@ header {
     font-size: 17px;
     margin-right: 15px;
   }
+
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -103,6 +103,10 @@ header {
   .ti-but {
     font-size: 19px;
     margin-right: 5px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
   }
 }
 
@@ -116,6 +120,10 @@ header {
     font-size: 23px;
     margin-right: 10px;
   }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -128,6 +136,10 @@ header {
     font-size: 25px;
     margin-right: 10px;
   }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -139,5 +151,9 @@ header {
   .ti-but {
     font-size: 30px;
     margin-right: 10px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
   }
 }
