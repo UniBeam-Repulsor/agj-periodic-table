@@ -34,6 +34,13 @@ header {
   padding: 5px 0px 5px 0px;
 }
 
+@media screen and (orientation:landscape)
+{
+   #landscape {
+     display: none;
+   }
+}
+
 @media only screen and (max-width: 600px) {
   #home {
     font-size: 23px;
