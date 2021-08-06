@@ -39,16 +39,16 @@ header {
    #landscape {
      display: none;
    }
-}
 
-@media only screen and (max-width: 600px) {
-  #home {
-    font-size: 23px;
-    margin-right: 15px;
-  }
+   @media only screen and (max-height: 600px) {
+     #home {
+       font-size: 23px;
+       margin-right: 15px;
+     }
 
-  .ti-but {
-    font-size: 17px;
-    margin-right: 15px;
-  }
+     .ti-but {
+       font-size: 17px;
+       margin-right: 15px;
+     }
+   }
 }
